@@ -34,58 +34,57 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg_night" translatesAutoresizingMaskIntoConstraints="NO" id="0Xt-fK-DIq">
-                                <rect key="frame" x="0.0" y="0.0" width="232" height="896"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="253" text="40 °C" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O0r-F3-pxz">
-                                <rect key="frame" x="20" y="230.5" width="192" height="67.5"/>
+                                <rect key="frame" x="20" y="230.5" width="374" height="67.5"/>
                                 <fontDescription key="fontDescription" name="Ubuntu-Medium" family="Ubuntu" pointSize="60"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Riyadh" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ySU-8q-BOc">
-                                <rect key="frame" x="20" y="94" width="192" height="51"/>
+                                <rect key="frame" x="20" y="94" width="374" height="51"/>
                                 <fontDescription key="fontDescription" name="Ubuntu-Medium" family="Ubuntu" pointSize="45"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="22-12-2021  5:00 AM" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KHV-Si-BM0">
-                                <rect key="frame" x="20" y="153" width="192" height="20.5"/>
+                                <rect key="frame" x="20" y="153" width="374" height="20.5"/>
                                 <fontDescription key="fontDescription" name="Ubuntu-Light" family="Ubuntu" pointSize="18"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="253" text="Mostly Cloudy for the hour" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zsd-Dx-93R">
-                                <rect key="frame" x="20" y="189.5" width="192" height="25"/>
+                                <rect key="frame" x="20" y="189.5" width="374" height="25"/>
                                 <fontDescription key="fontDescription" name="Ubuntu-Regular" family="Ubuntu" pointSize="22"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9rg-B9-KU2">
-                                <rect key="frame" x="28" y="314" width="176" height="102"/>
+                                <rect key="frame" x="28" y="314" width="358" height="102"/>
                                 <subviews>
                                     <stackView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="tI9-4C-nzu">
-                                        <rect key="frame" x="8" y="8" width="160" height="86"/>
+                                        <rect key="frame" x="8" y="8" width="342" height="86"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="1PK-Xg-nrz">
-                                                <rect key="frame" x="0.0" y="0.0" width="40" height="86"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="85.5" height="86"/>
                                                 <subviews>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="reg-WX-LdB">
-                                                        <rect key="frame" x="0.0" y="0.0" width="40" height="41"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="85.5" height="41"/>
                                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="40" id="MId-LH-PA2"/>
-                                                            <constraint firstAttribute="width" constant="40" id="cJr-JQ-xkd"/>
                                                         </constraints>
                                                         <imageReference key="image" image="wind" catalog="system" symbolScale="large"/>
                                                     </imageView>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Wind" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bKp-2I-0ku">
-                                                        <rect key="frame" x="0.0" y="43" width="40" height="17.5"/>
+                                                        <rect key="frame" x="0.0" y="43" width="85.5" height="17.5"/>
                                                         <fontDescription key="fontDescription" name="Ubuntu-Bold" family="Ubuntu" pointSize="14"/>
                                                         <color key="textColor" name="transparent_white"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4.11 MPH" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ASQ-y1-rwK">
-                                                        <rect key="frame" x="0.0" y="63.5" width="40" height="22.5"/>
+                                                        <rect key="frame" x="0.0" y="63.5" width="85.5" height="22.5"/>
                                                         <fontDescription key="fontDescription" name="Ubuntu-Bold" family="Ubuntu" pointSize="20"/>
                                                         <color key="textColor" name="transparent_navy"/>
                                                         <nil key="highlightedColor"/>
@@ -93,25 +92,24 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="wzr-S0-QtD">
-                                                <rect key="frame" x="40" y="0.0" width="40" height="86"/>
+                                                <rect key="frame" x="85.5" y="0.0" width="85.5" height="86"/>
                                                 <subviews>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="vcZ-dR-uR1">
-                                                        <rect key="frame" x="0.0" y="0.0" width="40" height="41"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="85.5" height="41"/>
                                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="40" id="514-oA-NvP"/>
-                                                            <constraint firstAttribute="width" constant="40" id="hKS-TV-79Q"/>
                                                         </constraints>
                                                         <imageReference key="image" image="humidity.fill" catalog="system" symbolScale="large"/>
                                                     </imageView>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Humidity" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LSA-JT-9iI">
-                                                        <rect key="frame" x="0.0" y="43" width="40" height="17.5"/>
+                                                        <rect key="frame" x="0.0" y="43" width="85.5" height="17.5"/>
                                                         <fontDescription key="fontDescription" name="Ubuntu-Bold" family="Ubuntu" pointSize="14"/>
                                                         <color key="textColor" name="transparent_white"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="62%" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="51m-9h-7xG">
-                                                        <rect key="frame" x="0.0" y="63.5" width="40" height="22.5"/>
+                                                        <rect key="frame" x="0.0" y="63.5" width="85.5" height="22.5"/>
                                                         <fontDescription key="fontDescription" name="Ubuntu-Bold" family="Ubuntu" pointSize="20"/>
                                                         <color key="textColor" name="transparent_navy"/>
                                                         <nil key="highlightedColor"/>
@@ -119,25 +117,24 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="hx8-by-nJD">
-                                                <rect key="frame" x="80" y="0.0" width="40" height="86"/>
+                                                <rect key="frame" x="171" y="0.0" width="85.5" height="86"/>
                                                 <subviews>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="itJ-Bf-KMx">
-                                                        <rect key="frame" x="0.0" y="-2" width="40" height="44"/>
+                                                        <rect key="frame" x="0.0" y="-2" width="85.5" height="44"/>
                                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <constraints>
-                                                            <constraint firstAttribute="width" constant="40" id="UeC-Fj-iQb"/>
                                                             <constraint firstAttribute="height" constant="40" id="fzl-uZ-Vqx"/>
                                                         </constraints>
                                                         <imageReference key="image" image="timer" catalog="system" symbolScale="large"/>
                                                     </imageView>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Pressure" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W7j-fl-weU">
-                                                        <rect key="frame" x="0.0" y="43" width="40" height="17.5"/>
+                                                        <rect key="frame" x="0.0" y="43" width="85.5" height="17.5"/>
                                                         <fontDescription key="fontDescription" name="Ubuntu-Bold" family="Ubuntu" pointSize="14"/>
                                                         <color key="textColor" name="transparent_white"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1019" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h8W-YY-D5c">
-                                                        <rect key="frame" x="0.0" y="63.5" width="40" height="22.5"/>
+                                                        <rect key="frame" x="0.0" y="63.5" width="85.5" height="22.5"/>
                                                         <fontDescription key="fontDescription" name="Ubuntu-Bold" family="Ubuntu" pointSize="20"/>
                                                         <color key="textColor" name="transparent_navy"/>
                                                         <nil key="highlightedColor"/>
@@ -145,25 +142,24 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="o9O-Vt-VX9">
-                                                <rect key="frame" x="120" y="0.0" width="40" height="86"/>
+                                                <rect key="frame" x="256.5" y="0.0" width="85.5" height="86"/>
                                                 <subviews>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Rfm-uf-KQc">
-                                                        <rect key="frame" x="0.0" y="-3.5" width="40" height="47"/>
+                                                        <rect key="frame" x="0.0" y="-3.5" width="85.5" height="47"/>
                                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <constraints>
-                                                            <constraint firstAttribute="width" constant="40" id="HiX-ew-uoT"/>
                                                             <constraint firstAttribute="height" constant="40" id="rKK-wR-nBt"/>
                                                         </constraints>
                                                         <imageReference key="image" image="figure.walk" catalog="system" symbolScale="large"/>
                                                     </imageView>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Feels Like" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HSF-Tz-PtO">
-                                                        <rect key="frame" x="0.0" y="43" width="40" height="16"/>
+                                                        <rect key="frame" x="0.0" y="43" width="85.5" height="16"/>
                                                         <fontDescription key="fontDescription" name="Ubuntu-Bold" family="Ubuntu" pointSize="14"/>
                                                         <color key="textColor" name="transparent_white"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="40 °C" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="me7-wH-TS8">
-                                                        <rect key="frame" x="0.0" y="62" width="40" height="24"/>
+                                                        <rect key="frame" x="0.0" y="62" width="85.5" height="24"/>
                                                         <fontDescription key="fontDescription" name="Ubuntu-Bold" family="Ubuntu" pointSize="20"/>
                                                         <color key="textColor" name="transparent_navy"/>
                                                         <nil key="highlightedColor"/>
@@ -187,10 +183,10 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="m7E-cE-jPA">
-                                <rect key="frame" x="20" y="432" width="192" height="143"/>
+                                <rect key="frame" x="20" y="432" width="374" height="143"/>
                                 <subviews>
                                     <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="aim-B4-HZV">
-                                        <rect key="frame" x="8" y="8" width="176" height="127"/>
+                                        <rect key="frame" x="8" y="8" width="358" height="127"/>
                                         <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="YMg-cX-TVL">
                                             <size key="itemSize" width="128" height="128"/>
                                             <size key="headerReferenceSize" width="0.0" height="0.0"/>
@@ -262,10 +258,10 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2Sp-aI-Thc">
-                                <rect key="frame" x="20" y="591" width="192" height="271"/>
+                                <rect key="frame" x="20" y="591" width="374" height="271"/>
                                 <subviews>
                                     <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Jb6-gx-RMJ">
-                                        <rect key="frame" x="8" y="8" width="176" height="255"/>
+                                        <rect key="frame" x="8" y="8" width="358" height="255"/>
                                         <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="66G-3m-6la">
                                             <size key="itemSize" width="128" height="128"/>
                                             <size key="headerReferenceSize" width="0.0" height="0.0"/>
@@ -356,10 +352,13 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="45x-nQ-GFv">
-                                <rect key="frame" x="168" y="44" width="44" height="31"/>
+                                <rect key="frame" x="350" y="44" width="44" height="31"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="moon" catalog="system"/>
+                                <connections>
+                                    <action selector="modeButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="881-Ks-4sA"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -399,6 +398,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="bgImageView" destination="0Xt-fK-DIq" id="w87-h2-Z8g"/>
                         <outlet property="cityLabel" destination="ySU-8q-BOc" id="hXx-QR-ulx"/>
                         <outlet property="currentDateLabel" destination="KHV-Si-BM0" id="t0F-l7-04F"/>
                         <outlet property="currentDescriptionLabel" destination="Zsd-Dx-93R" id="3nD-z5-VcE"/>
@@ -407,6 +407,7 @@
                         <outlet property="feelsLikeLabel" destination="me7-wH-TS8" id="8eI-fB-jXB"/>
                         <outlet property="hourlyCollectionView" destination="aim-B4-HZV" id="1BH-tA-NE8"/>
                         <outlet property="humidityLabel" destination="51m-9h-7xG" id="xD2-Dw-udh"/>
+                        <outlet property="modeButton" destination="45x-nQ-GFv" id="ssq-ZZ-CRv"/>
                         <outlet property="pressureLabel" destination="h8W-YY-D5c" id="Jjq-cj-YRW"/>
                         <outlet property="windLabel" destination="ASQ-y1-rwK" id="ol7-vq-4jF"/>
                     </connections>
